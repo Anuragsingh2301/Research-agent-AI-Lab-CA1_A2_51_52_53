@@ -1,0 +1,19 @@
+[project]
+name = "ai-ia-1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain>=1.2.13",
+    "langchain-google-genai",
+    "langchain-community",
+    "langchainhub",
+    "duckduckgo-search",
+    "wikipedia",
+    "ipykernel",
+    "ddgs>=9.11.4",
+    "langchain-openai>=1.1.11",
+    "fpdf2>=2.8.7",
+    "requests>=2.32.5",
+]
